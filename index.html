@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZABALA'S WEBSITE</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+
+</head>
+<body>
+
+
+    <header>
+        <nav class="navbar">
+            <span class="hamburger-btn material-symbols-rounded"></span>
+            <a href="about.html" class="logo">
+                <img src="images/PicsArt_03-12-12.55.54.png" alt="logo"
+                <h2>PAN TEA</h2>
+            </a>
+            <ul class="links">
+                <span class="close-btn material-symbols-rounded">close</span>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="about.html">PROFILE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <center><button class="login-btn">LOG IN</button></center>
+        </nav>
+        <div class="info">
+            <h3>Hi, I'm <span>Michael Jun</span>.</h3>
+            <h1><span>P</span>AN TEA <span>M</span>ILKTEA SHOP</h1>
+            <h3>Pan Tea Milktea Shop serves a wide variety of tasty and refreshing
+            <br> authentic pearl milktea drinks for all you fanatics out there <br> Guaranteed made from 100% freshly brewed loose-leaf teas of high quality for <br> an overall healthier lifestyle.</h3>
+        </div>
+    </header>
+
+    <div class="blur-bg-overlay"></div>
+    <div class="form-popup">
+        <span class="close-btn material-symbols-rounded">CLOSE</span>
+        <div class="form-box login">
+            <div class="form-details">
+                <h2>WELCOME BACK!</h2>
+                <p>Please log in using your personal information to stay connected with us.</p>
+            </div>
+            <div class="form-content">
+                <h2>LOGIN</h2>
+                <form action="shop.html">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+                    </div>
+                    <a href="index.html" class="forgot-pass-link">Forgot password?</a>
+                    <button type="submit">Log In</button>
+                    
+                </form>
+                <div class="bottom-link">
+                    Don't have an account?
+                    <a href="#" id="signup-link">Signup</a>
+                </div>
+            </div>
+        </div>
+        <div class="form-box signup">
+            <div class="form-details">
+                <h2>Create Account</h2>
+                <p>To become a part of our community, please sign up using your personal information.</p>
+            </div>
+            <div class="form-content">
+                <h2>SIGNUP</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Create password</label>
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I agree the
+                            <a href="#" class="option">Terms & Conditions</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <div class="bottom-link">
+                    Already have an account? 
+                    <a href="" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
